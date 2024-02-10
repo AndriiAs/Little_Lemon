@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="small family restaurant with delicious dishes" />
+	<meta name="og:title" content="Little Lemon restaurant" />
+	<meta name="og:description" content="small family restaurant with delicious dishes" />
+	<meta name="og:image" content="./assets/lemon-slice.png" />
+	<!-- <meta http-equiv="refresh" content="5"> -->
+	<script src="https://kit.fontawesome.com/2b1d2e91dd.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="icon" href="./assets/lemon-slice.png" sizes="32x32" type="image/png">
+	<title>Little lemon</title>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<a data-aos="zoom-in-down" data-aos-delay="400" data-aos-duration="1500" href="#" class="logo">Little
+				Lem<span>o</span>n</a>
+			<div class="menuToggle" onclick="toggleMenu()"></div>
+			<ul data-aos="zoom-in-down" data-aos-delay="400" data-aos-duration="1500" class="navigation">
+				<!-- <li> <a href="#banner" onclick="toggleMenu()">Home</a> </li> -->
+				<li> <button class="btn" id="reserve_modal_link" >Reserve</buton>
+				</li>
+				<li> <a href="#about" onclick="toggleMenu()">About</a> </li>
+				<li> <a href="#menu" onclick="toggleMenu()">Menu</a> </li>
+				<li> <a href="#expert" onclick="toggleMenu()">Expert</a> </li>
+				<li> <a href="#testimonials" onclick="toggleMenu()">Testimonials</a> </li>
+				<li> <a href="#contact" onclick="toggleMenu()">Contact</a> </li>
+
+			</ul>
+		</nav>
+	</header>
+
+	<section class="banner" id="banner">
+		<div class="content">
+			<h2 data-aos="fade-right" data-aos-duration="1000">Family Restaurant
+			</h2>
+			<p data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="700">Lorem ipsum dolor sit amet,
+				consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</p>
+			<div data-aos="zoom-out-up" data-aos-delay="800" data-aos-duration="700">
+				<a href="#menu" class="btn ">
+					<i class="fas fa-utensils"></i>
+					Our menu</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="row">
+			<div class="col50" data-aos="zoom-out-right" data-aos-duration="1000">
+				<h2 class="titleText"><span>A</span>bout Us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col50" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
+				<div class="imgBx">
+					<img src="./assets/img1.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="menu" id="menu">
+		<div class="title" data-aos="zoom-in" data-aos-duration="1000">
+			<h2 class="titleText">Our <span>M</span>enu</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		</div>
+		<div class="content">
+			<div class="box" data-aos="fade-down-left" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/menu1.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Salads</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="fade-down" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/menu2.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Soup</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="fade-down-right" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/menu3.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Pasta</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="fade-up-left" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/menu4.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Salads</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="fade-up" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/menu5.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Soup</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="fade-up-right" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/menu6.jpg">
+				</div>
+				<div class="text">
+					<h3>Special Pasta</h3>
+				</div>
+			</div>
+		</div>
+		<div class="title" data-aos="zoom-in" data-aos-duration="1000">
+			<a href="#" class="btn">View All</a>
+		</div>
+	</section>
+
+	<section class="expert" id="expert">
+		<div class="title" data-aos="zoom-in" data-aos-duration="1000">
+			<h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		</div>
+		<div class="content">
+			<div class="box" data-aos="fade-up-left" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/expert1.jpg">
+				</div>
+				<div class="text">
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="fade-up-right" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/expert2.jpg">
+				</div>
+				<div class="text">
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="fade-up-left" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/expert3.jpg">
+				</div>
+				<div class="text">
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="fade-up-right" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/expert4.jpg">
+				</div>
+				<div class="text">
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="testimonials" id="testimonials">
+		<div class="title white" data-aos="zoom-in" data-aos-duration="1000">
+			<h2 class="titleText">They <span>S</span>aid About Us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+		</div>
+		<div class="content">
+			<div class="box" data-aos="zoom-out" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/testi1.jpg">
+				</div>
+				<div class="text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="zoom-out" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/testi2.jpg">
+				</div>
+				<div class="text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+			<div class="box" data-aos="zoom-out" data-aos-duration="1000">
+				<div class="imgBx">
+					<img src="./assets/testi3.jpg">
+				</div>
+				<div class="text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					<h3>Someone Famous</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<section class="contact" id="contact">
+			<div class="title" data-aos="zoom-in" data-aos-duration="1000">
+				<h2 class="titleText"><span>C</span>ontact Us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+			</div>
+			<div class="contactForm" data-aos="zoom-in" data-aos-duration="1000">
+				<h3>Send Message</h3>
+				<div class="inputBox">
+					<input type="text" placeholder="Name">
+				</div>
+				<div class="inputBox">
+					<input type="text" placeholder="Email">
+				</div>
+				<div class="inputBox">
+					<textarea placeholder=""></textarea>
+				</div>
+				<div class="inputBox">
+					<!-- <input type="submit" value="Send">	 -->
+					<button class="btn">Send</button>
+				</div>
+			</div>
+		</section>
+
+		<div class="copyrightText">
+			<p>Copyright 2023 by ME. All Rights Resrved</p>
+		</div>
+
+		<div class="shadow-left"></div>
+		<div class="shadow-right"></div>
+	</footer>
+
+	<div class="modal" id="reserve_modal">
+		<div class="modal-box">
+			<h2 class="titleText">There are currently <span id="free_tables"></span> empty seats in the restaurant
+			</h2>
+			<div class="modal-box-row">				
+				<div class="modal_content">
+					<label for="inp_persons_number">How many seats do you need? <span class="err" id="err_0">*</span><br>
+						<input class="inp_modal" type="number" id="inp_persons_number" placeholder="2?... More?"><br>						
+					</label>
+					<label for="inp_date">Select time <span class="err" id="err_1">*</span><br>
+						<input class="inp_modal" type="time" id="inp_date" placeholder="Date"><br>
+					</label>
+					<label for="inp_name">Your Name <span class="err" id="err_2">*</span><br>
+						<input class="inp_modal" type="text" id="inp_name" placeholder="Name"><br>
+					</label>
+					<label for="inp_phone">Your phone <span class="err" id="err_3">*</span><br>
+						<input class="inp_modal" type="text" id="inp_phone" placeholder="(012)-3456789"><br>
+					</label>
+					<div class="btn" id="reserved">reserve table(s)</div>
+				</div>
+				<span class="close" id="close_modal">&times;</span>
+				<div class="tables" id="show_tables">
+					<h4>Tables info*</h4>
+					<ul id="tables_list"></ul>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal" id="confirm_modal">
+		<div class="modal-box">
+			<h2 id="confirm_name"></h2>
+			<div id="confirm_message"></div>
+			<div class="btn" id="confirm">Confirm</div>	
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', function () {
+			const header = document.querySelector('header');
+			header.classList.toggle("sticky", window.scrollY > 0);
+		})
+
+		function toggleMenu() {
+			const menuToggle = document.querySelector('.menuToggle');
+			const navigation = document.querySelector('.navigation');
+			menuToggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+		}
+	</script>
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="./reserve_modal.js"></script>
+	<!-- <script src="./reserve_counter.js"></script> -->
+	<script>
+		AOS.init();
+	</script>
+
+</body>
+
+</html>
